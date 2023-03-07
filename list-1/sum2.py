@@ -12,14 +12,7 @@ def sum2(nums):
     s=0
     if len(nums)==0:
         return 0
-    if 0<len(nums)<2:
-        s=sum(nums)
-        return s
-    if len(nums)>2:
+    if len(nums)>0:
         n=nums[0:2]
-        #print(n)
         s=sum(n)
-        #print(s)
         return s
-    
-print(sum2([1, 2, 3]))

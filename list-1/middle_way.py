@@ -10,7 +10,6 @@ middle_way([5, 2, 9], [1, 4, 5]) → [2, 4]
 
 def middle_way(a, b):
     a.extend(b)
-    print(a)
     return [a[1],a[4]]
 
 print(middle_way([1, 2, 3], [4, 5, 6]))
